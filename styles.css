@@ -12,23 +12,14 @@ img{
 figcaption{
     text-align: center;
     font:normal small-caps italic 12px/1.4 Georgia;
-    color: black;  
-}
-
-nav{
-    text-align: center;
-    font:normal small-caps normal 12px/1.4 Georgia;
-    color: black; 
+    color: whitesmoke;  
 }
 
 h1{
     text-align: center;
-    text-shadow:1px 1px gray ;
-    font:normal small-caps bold 25px/1.4 Georgia;
-    border:solid black 2px;
-    padding:10px;
-    margin: 45px;
-    color: black;
+    text-shadow:1px 1px grey ;
+    font:normal small-caps bold 30px/1.4 Georgia;
+    color:whitesmoke;
     
     
 }
@@ -43,20 +34,44 @@ h2{
     color: whitesmoke;  
 }
 
-ul{
-    text-indent:2em ;
-}
 
 body{
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
-    background-image:url(https://www.dropbox.com/s/ivpf0ln1zcplz02/657286%20%281%29.jpg?raw=1);
+    background-image:url(https://www.dropbox.com/s/i46qkrvh85u4ue9/bg2.jpg?raw=1);
     width: 100%;
     height: 100%;
    }
 
  a{
-     color:black;
+     color:whitesmoke;
  }
  
+ footer{
+    text-align: left;
+    font:normal small-caps bold 18px/1.4 Georgia;
+    color: whitesmoke;     
+ }
+
+ p{
+     font: bold;
+     color: whitesmoke;
+ }
+
+nav {
+    float: center;
+    text-align: center;
+}
+
+nav a {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: bold 12px;
+  }
+  
+nav a:hover {
+    background-color: grey;
+    color: black;
+  }
